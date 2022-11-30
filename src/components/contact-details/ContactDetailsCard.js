@@ -1,9 +1,13 @@
+import Card from 'react-bootstrap/Card';
+
 const  ContactDetailsCard = ({ contact }) => {
     return (
         <div>
-            <div>
+                    const <Card style={{ width: '18rem' }}>
+                        
+           
                 <img src={contact?.profilePic} alt={`Profile of ${contact?.firstName}${contact?.lastName}.`}/>
-            </div>
+           
             <div>
                 <p>{contact?.firstName} {contact?.lastName}</p>
                 <dl>

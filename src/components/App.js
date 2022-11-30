@@ -5,6 +5,8 @@ import ContactsPage from "./contacts";
 import ContactDetailsPage from "./contact-details";
 import ContactCreatePage from "./contact-create";
 import { getContacts } from "../utils/contacts";
+import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
+import Card from 'react-bootstrap/Card';
 
 const mockContacts = [
   {
