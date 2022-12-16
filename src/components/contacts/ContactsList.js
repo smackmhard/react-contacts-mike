@@ -1,4 +1,4 @@
-import ContactCard from "./ContactCard"
+import ContactCard from "./contactCard/ContactCard"
 
 const ContactList = ({ contacts=[] }) => {
     return (

@@ -1,4 +1,5 @@
 import React from "react";
+import { StyledFormDiv } from "../contacts/contactCard/styles";
 
 class ContactCreateForm extends React.Component {
     
@@ -31,10 +32,10 @@ class ContactCreateForm extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleFormSubmit}>
-                <div>
+                <StyledFormDiv>
                     <img src={this.state.profilePic} alt="Profile preview." />
-                </div>
-                <div>
+                </StyledFormDiv>
+                <StyledFormDiv>
                     <div>
                         <input
                             type="text"
@@ -92,7 +93,7 @@ class ContactCreateForm extends React.Component {
                     <div>
                         <button type="submit">Add Contact</button>
                     </div>
-                </div>
+                </StyledFormDiv>
             </form>
         )
     }

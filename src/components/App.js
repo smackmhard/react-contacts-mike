@@ -5,8 +5,8 @@ import ContactsPage from "./contacts";
 import ContactDetailsPage from "./contact-details";
 import ContactCreatePage from "./contact-create";
 import { getContacts } from "../utils/contacts";
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js';
-import Card from 'react-bootstrap/Card';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const mockContacts = [
   {
@@ -15,7 +15,7 @@ const mockContacts = [
     "lastName": "Snelman",
     "profilePic": "https://i.pravatar.cc/300?u=1",
     "phoneNumber": "351-346-6140",
-    "email": "csnelman0@blog.com",
+    "email": "csnelman0@blog.com", 
     "address": "09 Eggendart Parkway"
   }, 
   {

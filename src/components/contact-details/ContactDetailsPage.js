@@ -1,8 +1,9 @@
 import ContactDetailsCard from "./ContactDetailsCard";
 
+
 const ContactDetailsPage = ({ contact }) => {
     return (
-        <div>
+        <div >
             <ContactDetailsCard contact={contact} />
         </div>
     )
